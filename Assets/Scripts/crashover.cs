@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class crashover : MonoBehaviour {
     public GameObject Boat;
-    void OnTriggerEnter(Collision other)
+    void OnCollisionEnter(Collision other)
     {
         if (other.collider.gameObject == Boat);
         {
