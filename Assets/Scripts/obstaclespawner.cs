@@ -29,10 +29,10 @@ public class obstaclespawner : MonoBehaviour {
 		timer -= Time.deltaTime;
 		minutestimer -= Time.deltaTime;
 		seconds -= Time.deltaTime;
-		if (timer <= 0) {
-			Instantiate (rock, markerpos, Quaternion.identity);
-			timer = Random.Range (5f, 15f);
-		}
+		//if (timer <= 0) {
+			//Instantiate (rock, markerpos, Quaternion.identity);
+			//timer = Random.Range (5f, 15f);
+		//}
 		if (minutestimer <= 120f) {
 			minutes = 1;
 		}
