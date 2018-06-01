@@ -7,7 +7,7 @@ public class placeholderai : MonoBehaviour {
     public GameObject Boat;
     void OnCollisionEnter(Collision other)
     {
-        if (other.collider.gameObject == Boat) ;
+        if (other.collider.gameObject == Boat);
         {
             Debug.Log("Collision");
             SceneManager.LoadScene("winscene");

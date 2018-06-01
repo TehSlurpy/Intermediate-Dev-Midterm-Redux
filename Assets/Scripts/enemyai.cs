@@ -5,10 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class enemyai : MonoBehaviour {
 	public Transform player;
-	float distance;
+    public GameObject Boat;
+    float distance;
 	public float speed;
-	// Use this for initialization
-	void Start () {
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.collider.gameObject == Boat) ;
+        {
+            Debug.Log("Collision");
+            SceneManager.LoadScene("winscene");
+        }
+    }
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
