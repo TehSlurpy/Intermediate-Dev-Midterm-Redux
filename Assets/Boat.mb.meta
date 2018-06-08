@@ -16,6 +16,9 @@ ModelImporter:
     100020: transform3
     100022: transform4
     100024: transform5
+    100026: pSphere2
+    100028: transform6
+    100030: transform7
     400000: //RootNode
     400002: pCone1
     400004: pCylinder1
@@ -29,12 +32,18 @@ ModelImporter:
     400020: transform3
     400022: transform4
     400024: transform5
+    400026: pSphere2
+    400028: transform6
+    400030: transform7
     2300000: polySurface2
     2300002: pSphere1
+    2300004: pSphere2
     3300000: polySurface2
     3300002: pSphere1
+    3300004: pSphere2
     4300000: polySurface2
     4300002: pSphere1
+    4300004: pSphere2
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
@@ -83,7 +92,7 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
